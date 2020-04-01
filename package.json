@@ -1,0 +1,21 @@
+{
+  "name": "flipper-plugin-react-devtools-v3",
+  "version": "1.0.0",
+  "description": "React Devtools v3 - for RN < 0.60",
+  "main": "index.tsx",
+  "license": "MIT",
+  "keywords": [
+    "flipper-plugin"
+  ],
+  "dependencies": {
+    "address": "^1.1.2",
+    "flipper": "^0.34.0",
+    "get-port": "^5.0.0",
+    "react": "^16.13.1",
+    "react-devtools-core": "3.6.3"
+  },
+  "title": "React DevTools v3",
+  "category": "React Native",
+  "icon": "app-react",
+  "devDependencies": {}
+}
