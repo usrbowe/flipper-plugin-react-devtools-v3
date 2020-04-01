@@ -1,7 +1,7 @@
 {
   "name": "flipper-plugin-react-devtools-v3",
-  "version": "1.0.0",
-  "description": "React Devtools v3 - for RN < 0.60",
+  "version": "1.0.1",
+  "description": "React Devtools v3 - for RN bellow 0.62",
   "main": "index.tsx",
   "license": "MIT",
   "keywords": [
