@@ -1,6 +1,6 @@
 {
   "name": "flipper-plugin-react-devtools-v3",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Devtools v3 - for RN bellow 0.62",
   "main": "index.tsx",
   "license": "MIT",
@@ -17,5 +17,9 @@
   "title": "React DevTools v3",
   "category": "React Native",
   "icon": "app-react",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usrbowe/flipper-plugin-react-devtools-v3"
+  }
 }
