@@ -1,25 +1,36 @@
 {
+  "$schema": "https://fbflipper.com/schemas/plugin-package/v2.json",
   "name": "flipper-plugin-react-devtools-v3",
+  "id": "flipper-plugin-react-devtools-v3",
   "version": "1.0.2",
   "description": "React Devtools v3 - for RN bellow 0.62",
-  "main": "index.tsx",
+  "main": "dist/bundle.js",
+  "flipperBundlerEntry": "index.tsx",
   "license": "MIT",
   "keywords": [
     "flipper-plugin"
   ],
   "dependencies": {
     "address": "^1.1.2",
-    "flipper": "^0.34.0",
     "get-port": "^5.0.0",
     "react": "^16.13.1",
     "react-devtools-core": "3.6.3"
   },
+  "peerDependencies": {
+    "flipper": "latest"
+  },
   "title": "React DevTools v3",
   "category": "React Native",
   "icon": "app-react",
-  "devDependencies": {},
+  "devDependencies": {
+    "flipper": "latest",
+    "flipper-pkg": "latest"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/usrbowe/flipper-plugin-react-devtools-v3"
+  },
+  "scripts": {
+    "prepack": "flipper-pkg lint && flipper-pkg bundle"
   }
 }
