@@ -33,7 +33,7 @@ const Container = styled.div({
   height: "100%"
 });
 
-const DEV_TOOLS_NODE_ID = "reactdevtools-out-of-react-node";
+const DEV_TOOLS_NODE_ID = "reactdevtools-out-of-react-node-v3";
 
 function createDevToolsNode(): HTMLElement {
   const div = document.createElement("div");
